@@ -59,7 +59,7 @@ house_qualities = house_qualities %>% dplyr::mutate(fireplace_binary = ifelse(fi
 
 # creating dataframe to be combined into main dataframe
 
-house_qualities_final = house_qualities %>% dplyr::select(id,lowqualfinsf,grlivarea,tot_halfbath,tot_fullbath,extra_rooms,
+house_qualities_final = house_qualities %>% dplyr::select(id,lowqualfinsf,grlivarea,bedroomabvgr,tot_halfbath,tot_fullbath,extra_rooms,
                                                           fireplace_binary,functional,kitchenabvgr,kitchenqual)
 
 
@@ -76,3 +76,5 @@ names(house_qualities_final)
 nrow(house_qualities_final)
 
 write.csv(house_qualities_final,'\\house_qualities.final.csv')
+
+head(house_qualities_final)
