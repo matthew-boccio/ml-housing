@@ -5,6 +5,7 @@ library(corrplot)
 library(car)
 library(MASS)
 library(mice)
+library(tidyverse)
 library(knitr)
 library(fastDummies)
 mice::md.pattern(data)
@@ -74,6 +75,10 @@ house_qualities_final = subset(house_qualities_final,select = -c(functional,kitc
 names(house_qualities_final)
 
 nrow(house_qualities_final)
+
+# rename square feet column
+
+house_qualities_final = house_qualities_final %>% rename(highqualsf=grlivarea)
 
 write.csv(house_qualities_final,'\\house_qualities.final.csv')
 
