@@ -1,4 +1,4 @@
-"","id","lowqualfinsf","grlivarea","bedroomabvgr","tot_halfbath","tot_fullbath","extra_rooms","fireplace_binary","kitchenabvgr","kitchenqual_Ex","kitchenqual_Fa","kitchenqual_Gd","kitchenqual_TA","functional_Maj1","functional_Maj2","functional_Min1","functional_Min2","functional_Mod","functional_Sev","functional_Typ"
+"","id","lowqualfinsf","highqualsf","bedroomabvgr","tot_halfbath","tot_fullbath","extra_rooms","fireplace_binary","kitchenabvgr","kitchenqual_Ex","kitchenqual_Fa","kitchenqual_Gd","kitchenqual_TA","functional_Maj1","functional_Maj2","functional_Min1","functional_Min2","functional_Mod","functional_Sev","functional_Typ"
 "1",1,0,1710,3,1,3,4,0,1,0,0,1,0,0,0,0,0,0,0,1
 "2",2,0,1262,3,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,1
 "3",3,0,1786,3,1,3,2,1,1,0,0,1,0,0,0,0,0,0,0,1
